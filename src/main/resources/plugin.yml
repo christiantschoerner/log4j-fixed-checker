@@ -1,0 +1,4 @@
+name: Log4jFixer
+version: 1.0-BETA
+author: Chriis
+main: org.tschoerner.christian.log4jfixedchecker.FixedChecker
