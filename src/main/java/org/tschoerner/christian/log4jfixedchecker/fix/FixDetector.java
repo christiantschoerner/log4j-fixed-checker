@@ -38,6 +38,7 @@ public class FixDetector {
 
                 if(jvm != null && jvm.equalsIgnoreCase("log4j2_112-116.xml")){
                     LogManager.log("§aPASSED §rFound JVM argument '-Dlog4j.configurationFile=log4j2_112-116.xml'");
+                    return true;
                 }else{
                     LogManager.log("§cFAILED §rJVM argument '-Dlog4j.configurationFile=log4j2_112-116.xml' NOT set");
                 }
@@ -54,6 +55,7 @@ public class FixDetector {
 
                 if(jvm != null && jvm.equalsIgnoreCase("log4j2_17-111.xml")){
                     LogManager.log("§aPASSED §rFound JVM argument '-Dlog4j.configurationFile=log4j2_17-111.xml'");
+                    return true;
                 }else{
                     LogManager.log("§cFAILED §rJVM argument '-Dlog4j.configurationFile=log4j2_17-111.xml' NOT set");
                 }
